@@ -10,76 +10,163 @@ body {
     max-width: 900px;
 }
 
-aside {
+.left {
+    position: relative;
     float: left;
-    width: 25%;
-    height: 660px;
     margin-left: 8px;
     margin-top: 8px;
     border: 20px solid #A6D3DF;
     border-radius: 10px;
-    width: 230px;
+    width: 243px;
     height: 660px;
     background-color: #A6D3DF;
 
 }
-aside-box {
+left-inner-box {
     display: block;
     background-color: #f2f2f2;
     margin-left: 5px;
     margin-top: 5px;
     border: 1px solid #f2f2f2;
     border-radius: 10px;
-    width: 205px;
+    width: 218px;
     height: 610px;
+}
+.number {
+    display: inline;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-size: 10px;
+}
+/* 여기는 왜 부모태그랑 안 묶이는지 모르겠음 */
+#TODAY {
+    font-size: 14px;
+    color: red;
+}
+#TOTAL {
+    font-size: 14px;
+}
+/* 텍스트 나열되어 있는 부분 더 줄일 수 있는지? */
+
+.left-main {
+    display: block;
+    position: absolute;
+    width: 205px;
+    height: 555px;
+    background-color: #fff;
+    top: 50px;
+    left: 15px;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
 
 }
-section {
+.left-main > img {
+    position:absolute;
+    display: block;
+    width: 80%;
+    height: 40%;
+    top: 20px;
+    left: 17px;
+}
+.left-text {
+    position: absolute;
+    display: block;
+    width: 80%;
+    height: 20%;
+    top: 250px;
+    left: 17px;
+    text-align: left;
+    font-size: 14px;
+}
+.left-text > p {
+    margin: 5px;
+}
+.history {
+    font-size: 10px;
+    display: inline;
+    position: absolute;
+    top: 350px;
+    left: 17px;
+    padding-right: 110px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e6e6e6;
+}
+.up-down {
+    display: inline;
+    position: absolute;
+    font-size: 14px;
+    right: 5px;
+}
+
+.left-name {
+    style:#b3b3b3;
+    position: absolute;
+    display: inline;
+    top: 385px;
+    left: 17px;
+    font-size: 12px;
+}
+select {
+    display: block;
+    position: absolute;
+    top: 430px;
+    left: 17px;
+    padding-right: 80px;
+}
+.right {
    float: left;
-   width: 70%;
+   width: 648px;
    height: 660px;
    margin-top: 8px;
    border-top: 20px solid #A6D3DF;
    border-bottom: 20px solid #A6D3DF;
    border-radius: 10px;
    background-color: #A6D3DF;
+   position:relative;
 }
-section-box {
+right-inner-box {
+    position: absolute;
     display: block;
     background-color: #f2f2f2;
     margin-top: 5px;
     border: 1px solid #f2f2f2;
     border-radius: 10px;
-    width: 600px;
+    width: 620px;
     height: 610px;
 }
-section-box-header {
-    font-size: smaller;
-}
-
-/* .left-outer-box {
-    margin: 8px;
-    border: 20px solid #A6D3DF;
-    border-radius: 10px;
-    width: 230px;
-    height: 660px;
-    background-color: #A6D3DF;
-    
-}
-.right-outer-box {
-    margin-top: 8px;
-    border: 20px solid #A6D3DF;
-    border-radius: 10px;
-    width: 230px;
-    height: 660px;
-    background-color: #A6D3DF;
-} */
-
-/* div:after {
-    content: "psuedo";
+header {
     display: block;
-    width: 80%;
-    height: 80%;
+    position: absolute;
+    left: 10px;
+    padding-right: 260px;
+}
+header > h1 {
+    font-size: 17px;
+    color: #003380;
+}
+header > span {
+    display: inline;
+    position: absolute;
+    font-size: 12px;
+    top: 20px;
+    right: 0px;
+}
+.right-main {
+    display: block;
+    position: absolute;
+    width: 600px;
+    height: 555px;
+    background-color: #fff;
+    top: 44px;
+    left: 5px;
     border-radius: 10px;
-    background-color: #f2f2f2;
-} */
+    border: 1px solid #cccccc;
+}
+.recent {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size:15px;
+}

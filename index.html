@@ -6,29 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>박재형님의 미니홈피</title>
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
 </head>
 <body>
-    <!--외부박스 내부박스 내용박스 구분. 왼쪽 / 오른쪽 -->
-    <aside>
-        <aside-box>
-            <aside-box-header>
-                TODAY
-            </aside-box-header>
-            <aside-box-content>
-
-            </aside-box-content>
-        </aside-box>
-    </aside>
-    <section>
-        <section-box>
-            <section-box-header>
-                <h1>박재형의 미니홈피에 오신 것을 환영합니다!</h1>
-            </section-box-header>
-            <section-box-content>
-
-            </section-box-content>
-        </section-box>
-    </section>
+    <div class="left">
+        <left-inner-box>
+            <div class="number">
+                <span> TODAY </span>
+                <span id="TODAY">999</span>
+                &nbsp;ㅣ&nbsp;
+                <span> TOTAL </span>
+                <span id="TOTAL">7979</span>
+            </div>
+            <main class="left-main">
+                <img src="https://thumb.pann.com/tc_480/http://fimg5.pann.com/new/download.jsp?FileID=55459205">
+                <div class="left-text">
+                    <p>잠 못드는 밤 비는 내리고...</p>
+                    <p>난 코딩을 한ㄷr..</p>
+                </div>
+                <div class="history">
+                    <i class="fas fa-caret-right" style="color:#068cb9";></i>
+                    <b>HISTORY</b>
+                    <div class="up-down">
+                        <i class="fas fa-caret-up" style="color:#999999"></i>
+                        <i class="fas fa-caret-down" style="color:#999999"></i>
+                    </div>   
+                </div>
+                <div class="left-name">
+                    <b style="color:#003380; font-size: 16px;" >박재형</b>
+                    (
+                    <i class="fas fa-mars-stroke-v"></i>
+                    )
+                </div> 
+                <select name="파도타기">
+                    <option value="">파도타기</option>
+                    <option value="정주희">정주희</option>
+                </select>   
+            </main>
+        </left-inner-box>
+    </div>
+    <div class="right">
+        <right-inner-box>
+            <header>
+                <h1>박재형의 미니홈피에 오신 것을 환영합니다!!</h1>
+                <span>https://www.cyworld.com</span>
+            </header>
+            <main class="right-main">
+                <article class="recent">
+                    <b style="color:#1296bf">최근 게시물</b>
+                </article>
+            </main>
+        </right-inner-box>
+    </div>
     
 </body>
 </html>
